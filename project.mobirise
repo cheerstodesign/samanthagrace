@@ -24,7 +24,7 @@
         "display4Font": "Montserrat",
         "display4Size": 1,
         "isRoundedButtons": true,
-        "isAnimatedOnScroll": true,
+        "isAnimatedOnScroll": false,
         "isScrollToTopButton": false
       },
       "additionalSetColors": [
@@ -52,8 +52,8 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
-        "meta_descr": "",
+        "title": "Samantha Grace",
+        "meta_descr": "Samantha Grace",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
