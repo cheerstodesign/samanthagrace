@@ -1,0 +1,91 @@
+.body {
+  font-family: Tanker, sans-serif;
+}
+
+.section-lauren {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  padding: 60px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #ffecd2;
+  background-image: linear-gradient(200deg, #ffecd2, #f54ea2);
+}
+
+.heading {
+  font-size: 184px;
+  line-height: 160px;
+  letter-spacing: 7px;
+}
+
+.section-sami {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  padding: 60px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #ffecd2;
+  background-image: linear-gradient(200deg, #fbc2eb, #9257fe);
+}
+
+.section-nati {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  padding: 60px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #ffecd2;
+  background-image: linear-gradient(200deg, #fceabb, #ff7e5f);
+}
+
+@media screen and (max-width: 767px) {
+  .heading {
+    font-size: 144px;
+    line-height: 130px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .section-lauren {
+    height: 100vh;
+    padding: 20px;
+  }
+
+  .heading {
+    font-size: 84px;
+    line-height: 80px;
+  }
+
+  .section-sami {
+    height: 100vh;
+    padding: 20px;
+  }
+
+  .section-nati {
+    height: 100vh;
+    padding: 20px;
+  }
+}
+
+@font-face {
+  font-family: 'Tanker';
+  src: url('../fonts/Tanker-Regular.eot') format('embedded-opentype'), url('../fonts/Tanker-Regular.woff') format('woff'), url('../fonts/Tanker-Regular.ttf') format('truetype'), url('../fonts/Tanker-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
